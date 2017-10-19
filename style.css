@@ -1,0 +1,7 @@
+.puppy img {
+
+    display: block;
+    width: 400px;
+    height: auto;
+    transition: all 0.3s;
+}
