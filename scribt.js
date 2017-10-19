@@ -2,11 +2,23 @@ let hund = document.querySelector(".puppy");
 let splat = document.querySelector(".blood");
 let anders = document.querySelector(".hvalp");
 let avfor = document.querySelector(".av");
+let start =document.querySelector(".intro")
 
-hund.addEventListener('mouseover', flygt);
-hund.addEventListener('click', die);
-    console.log("sker der noget hallo?");
 
+
+start.addEventListener('click', startbox);
+
+console.log("sker der noget hallo?");
+
+
+function startbox(){
+    start.classList.toggle('intro');
+    hund.classList.remove("skjult");
+    flygt()
+    hund.addEventListener('mouseover', flygt);
+    hund.addEventListener('click', die);
+
+}
 
 function flygt() {
     let x = Math.floor(Math.random() * 600);
