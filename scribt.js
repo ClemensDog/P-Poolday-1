@@ -21,8 +21,8 @@ function startbox(){
 }
 
 function flygt() {
-    let x = Math.floor(Math.random() * 600);
-    let y = Math.floor(Math.random() * 600);
+    let x = Math.floor(Math.random() * 700);
+    let y = Math.floor(Math.random() * 700);
 
     hund.style.transform = "translate(" + x + "px, " + y + "px)";
 }
