@@ -19,8 +19,8 @@ function flygt() {
 function die(){
     console.log("hejsa den viker");
     splat.classList.toggle("blood");
-    splat.style.opacity(1);
-    anders.style.opacity(0);
+    splat.style.opacity="1";
+    anders.style.opacity="0";
     console.log("Av Siger Anders");
     avfor.play();
 
