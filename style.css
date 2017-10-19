@@ -1,18 +1,20 @@
 .hvalp {
-
     display: block;
     width: 400px;
+    opacity:1;
     height: auto;
-    transition: all 0.3s;
+    position:absolute;
+
+}
+
+.blood {
+    width: 600px;
+    height: 600px;
+    opacity: 0;
+    top:240px;
+    left:50px;
+    position:relative;
+
 }
 
 
-.puppy {
-
-    width: 600px;
-    height: 600px;
-    background-image:url(blod2.png);
-    transition: all 0.3s;
-
-
-    }
