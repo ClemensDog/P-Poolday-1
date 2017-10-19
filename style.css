@@ -1,7 +1,18 @@
-.puppy img {
+.hvalp {
 
     display: block;
     width: 400px;
     height: auto;
     transition: all 0.3s;
 }
+
+
+.puppy {
+
+    width: 600px;
+    height: 600px;
+    background-image:url(blod2.png);
+    transition: all 0.3s;
+
+
+    }
